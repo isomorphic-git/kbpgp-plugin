@@ -1,0 +1,40 @@
+{
+  "name": "@isomorphic-git/kbpgp-plugin",
+  "version": "0.0.0-development",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --coverage",
+    "semantic-release": "semantic-release"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isomorphic-git/kbpgp-plugin.git"
+  },
+  "keywords": [
+    "isomorphic-git-plugin"
+  ],
+  "author": "William Hilton <wmhilton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isomorphic-git/kbpgp-plugin/issues"
+  },
+  "homepage": "https://github.com/isomorphic-git/kbpgp-plugin#readme",
+  "dependencies": {
+    "kbpgp": "^2.0.82"
+  },
+  "devDependencies": {
+    "@semantic-release/exec": "3.3.0",
+    "crypto-random-string": "1.0.0",
+    "jest": "23.6.0",
+    "jest-junit": "5.2.0",
+    "semantic-release": "15.10.5",
+    "tweet-tweet": "1.0.4"
+  }
+}
